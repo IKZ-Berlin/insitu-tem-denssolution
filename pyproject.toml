@@ -74,7 +74,7 @@ select = [
     "UP",
     # isort
     "I",
-    # pylint 
+    # pylint
     "PL",
 ]
 
@@ -108,10 +108,10 @@ package-dir = { "" = "src" }
 where = ["src"]
 
 [project.entry-points.'nomad.plugin']
-myparser = "nomad_insitu_tem_denssolutions.parsers:myparser"
-mypackage = "nomad_insitu_tem_denssolutions.schema_packages:mypackage"
-
-myapp = "nomad_insitu_tem_denssolutions.apps:myapp"
+# myparser = "nomad_insitu_tem_denssolutions.parsers:myparser"
+# mypackage = "nomad_insitu_tem_denssolutions.schema_packages:mypackage"
+denssolutions = "nomad_insitu_tem_denssolutions.schema_packages:denssolutions"
+# myapp = "nomad_insitu_tem_denssolutions.apps:myapp"
 [tool.cruft]
 # Avoid updating workflow files, this leads to permissions issues
 skip = [".github/*"]
