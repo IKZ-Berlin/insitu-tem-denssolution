@@ -1,3 +1,3 @@
 data:
-  m_def: nomad_insitu_tem_denssolutions.schema_packages.mypackage.MySchema
+  m_def: insitu_tem_denssolutions.schema_packages.schema_package.NewSchemaPackage
   name: Markus
