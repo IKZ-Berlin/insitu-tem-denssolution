@@ -1,8 +1,8 @@
-site_name: nomad-insitu-tem-denssolutions
+site_name: insitu-tem-denssolutions
 site_description: Nomad example template
 site_author: Sebastian Brueckner
 
-repo_url: https://github.com/budschi/nomad-insitu-tem-denssolutions
+repo_url: https://github.com/budschi/insitu-tem-denssolutions
 edit_uri: ""
 
 nav:
