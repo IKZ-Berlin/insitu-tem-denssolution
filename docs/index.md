@@ -1,4 +1,4 @@
-# Welcome to the `nomad-insitu-tem-denssolutions` documentation
+# Welcome to the `insitu-tem-denssolutions` documentation
 
 Nomad example template
 
