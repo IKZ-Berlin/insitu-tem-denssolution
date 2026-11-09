@@ -1,12 +1,13 @@
 import logging
 
 from nomad.datamodel import EntryArchive
-from nomad_insitu_tem_denssolutions.parsers.myparser import MyParser
+
+from insitu_tem_denssolutions.parsers.parser import NewParser
 
 
 def test_parse_file():
-    parser = MyParser()
+    parser = NewParser()
     archive = EntryArchive()
     parser.parse('tests/data/example.out', archive, logging.getLogger())
 
-    assert archive.results.material.elements == ['H', 'O']
+    assert archive.workflow2.name == 'test'
