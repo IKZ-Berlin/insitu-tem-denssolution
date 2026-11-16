@@ -1,1 +1,1 @@
-recursive-include * nomad_plugin.yaml
+graft src/insitu_tem_denssolutions/example_uploads
